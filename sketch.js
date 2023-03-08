@@ -104,7 +104,7 @@ function draw() {
     push()
     translate(700,615);
     rotate(-20);
-    tint(255,190);
+    tint(255,140);
     image(fun[1],0,0);
     fun[1].resize(250,237);
     pop();
@@ -114,7 +114,7 @@ function draw() {
     push()
     translate(175,200);
     rotate(-20);
-    tint(255,190);
+    tint(255,140);
     image(des[2],0,0);
     des[2].resize(300,285);
     pop()
@@ -126,7 +126,7 @@ function draw() {
     rotate(-35);
     tint(255,140);
     image(fun[2],0,0);
-    fun[2].resize(350,332)
+    fun[2].resize(350,332);
     pop();
   }
 
@@ -146,7 +146,7 @@ function draw() {
     rotate(20);
     tint(255,140);
     image(fun[3],0,0);
-    fun[3].resize(400,380)
+    fun[3].resize(400,380);
     pop();
   }
 
